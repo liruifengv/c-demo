@@ -1,0 +1,27 @@
+{
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    "*.grad": "jsonc",
+    "*.gair": "jsonc",
+    "*.gapt": "jsonc",
+    "*.glie": "jsonc",
+    "*.gacw": "jsonc",
+    "*.gree": "jsonc",
+    "*.gtra": "jsonc",
+    "*.gwme": "jsonc",
+    "*.gane": "jsonc",
+    "*.gflt": "jsonc",
+    "*.gspa": "json",
+    "*.gnep": "json",
+    "*.gser": "json",
+    "*.gpln": "json",
+    "*.gsrt": "json",
+    "*.cjson": "jsonc",
+    "*.wxs": "javascript",
+    "stdio.h": "c"
+  }
+}
