@@ -22,6 +22,9 @@
     "*.gsrt": "json",
     "*.cjson": "jsonc",
     "*.wxs": "javascript",
-    "stdio.h": "c"
+    "*.astro": "astro",
+    "*.yml": "yaml",
+    "stdio.h": "c",
+    "stdlib.h": "c"
   }
 }
