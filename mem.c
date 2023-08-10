@@ -19,9 +19,12 @@ int main(void) {
   *p = 12;
   printf("p: %p\n", p);
   printf("*p: %d\n", *p); // 12
+    // 释放内存
+  free(p);
+  printf("p: %p\n", p);
+  printf("*p: %d\n", *p);
   printf("========================================\n");
   printf("\n");
-
 
   int* mem = malloc(sizeof(int));
   *mem = 555;
@@ -60,4 +63,16 @@ int main(void) {
   char* str = malloc(4);
   strcpy(str, "abc");
   printf("%s\n", str);
+  free(str);
+  printf("%s\n", str);
+
+  printf("========================================\n");
+  printf("\n");
+
+  int* ww;
+
+  ww = malloc(sizeof(int) * 10);
+  // 使用 realloc() 来重新分配内存
+  ww = realloc(b, sizeof(int) * 2000);
+
 }
