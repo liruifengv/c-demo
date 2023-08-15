@@ -12,6 +12,17 @@ struct car {
   int speed;
 };
 
+struct turtle {
+  char* name;
+  char* species;
+  int age;
+};
+
+void happy(struct turtle* t) {
+  // (*t).age = (*t).age + 1;
+  t->age = t->age + 1;
+};
+
 int main(void) {
   struct fraction f1;
 
@@ -103,5 +114,14 @@ int main(void) {
   b3.name = "Mula";
   printf("%s\n", b3.name);
   printf("%s\n", a2.name);
+
+  printf("========================================\n");
+  printf("\n");
+
+
+  struct turtle myTurtle = {"MyTurtle", "sea turtle", 99};
+  happy(&myTurtle);
+  printf("Age is %i\n", myTurtle.age);
+
 }
 
