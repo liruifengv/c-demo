@@ -17,9 +17,9 @@ int main(void) {
   printf("Compiled on: %s %s\n", __DATE__, __TIME__);
   printf("C Version: %ld\n", __STDC_VERSION__);
 
-  #if __STDC_VERSION__ != 201112L
-    #error Not C11
-  #endif
+  // #if __STDC_VERSION__ != 201112L
+  //   #error Not C11
+  // #endif
   
 }
 

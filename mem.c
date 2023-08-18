@@ -73,6 +73,6 @@ int main(void) {
 
   ww = malloc(sizeof(int) * 10);
   // 使用 realloc() 来重新分配内存
-  ww = realloc(b, sizeof(int) * 2000);
+  // ww = realloc(b, sizeof(int) * 2000);
 
 }
